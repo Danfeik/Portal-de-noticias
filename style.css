@@ -1,9 +1,10 @@
-body{
+body {
     background-color: #C4C4C4;
-    margin: 0; padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
-.header{
+.header {
     background-color: #003857;
     display: flex;
     justify-content: space-between;
@@ -13,22 +14,24 @@ body{
     font-family: 'Neuton', serif;
     border-bottom: 10px solid #00E08F;
 }
+
 .logo {
     position: relative;
-  }
-  
-  .logo .imagen2 {
-    position: absolute;  
-    top: 0;  
+}
+
+.logo .imagen2 {
+    position: absolute;
+    top: 0;
     left: 0;
     opacity: 0;
     transition: .5s;
-  }
-  
-  .logo:hover .imagen2 {
+}
+
+.logo:hover .imagen2 {
     opacity: 1;
-  }
-.header .imagen1 .imagen2{
+}
+
+.header .imagen1 .imagen2 {
     cursor: pointer;
 }
 
@@ -37,34 +40,37 @@ body{
     width: auto;
     transition: all 0.3s;
 }
+
 .header .imagen2 img {
     height: 90px;
     width: auto;
     transition: all 0.3s;
 }
-.header .imagen1 img:hover{
+
+.header .imagen1 img:hover {
     transform: scale(1.2);
 }
-.header .nav-links{
+
+.header .nav-links {
     list-style: none;
 }
 
-.header .nav-links li{
+.header .nav-links li {
     display: inline-block;
-    padding: 0 40px;    
+    padding: 0 40px;
 }
 
-.header .nav-links li:hover{
+.header .nav-links li:hover {
     transform: scale(1.1);
 }
 
-.header .nav-links a{
+.header .nav-links a {
     font-size: 23px;
     color: #eceff1;
-    text-decoration: none;    
+    text-decoration: none;
 }
 
-.header .nav-links li a:hover{
+.header .nav-links li a:hover {
     color: #00E08F;
 }
 
@@ -106,3 +112,61 @@ hr {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
   }
 
+.section {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 10%;
+}
+
+.section__header {
+    margin-bottom: 0px;
+    font-family: fantasy;
+    font-weight: 500;
+}
+
+.section__news {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.small-news {
+    width: 25%;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+a.small-news {
+    text-decoration: none;
+    color: black;
+}
+
+a.small-news:hover {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.small-news__img {
+    width: 100%;
+    margin: 0px;
+}
+
+.small-news__title {
+    font-family: 'Neuton', serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 0px;
+}
+
+.small-news__footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px;
+    color: #949494;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+}
