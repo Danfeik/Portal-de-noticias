@@ -72,3 +72,37 @@ hr {
     height: 10px;
     background-color: black;
   }
+
+
+.nota2{
+    width: 80%;
+    display: flex;
+  flex-flow: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  margin-top: 2%;
+  padding: 5%;
+  border: 2px solid #c2c2c2;
+  background-color: #EDEDED;
+  border: 3px ;
+      -moz-border-radius: 7px;
+      -webkit-border-radius: 7px;
+  }
+  
+  .imagen3{
+    width: 45%;
+  }
+
+  .text {
+    width: 45%;
+    font-size: 15px;
+    color: gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }
+
+  .text h1 {
+    color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }
+
